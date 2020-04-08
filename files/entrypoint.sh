@@ -1,6 +1,8 @@
 #!/bin/sh
 set -e
-
+if [ -e laravel-echo-server.lock ]; then
+  rm -f laravel-echo-server.lock
+fi
 if ! [ -e laravel-echo-server.json ]; then
   cp laravel-echo-server.example.json laravel-echo-server.json
 fi
