@@ -27,7 +27,7 @@
 	"sslCertChainPath": "{{ LARAVEL_ECHO_SERVER_SSL_CHAIN_PATH }}",
 	"sslPassphrase": "{{ LARAVEL_ECHO_SERVER_SSL_PASSPHRASE }}",
 	"apiOriginAllow": {
-		"allowCors": {{ LARAVEL_ECHO_SERVER_ALLOW_CORS }},
+		"allowCors": "{{ LARAVEL_ECHO_SERVER_ALLOW_CORS }}",
 		"allowOrigin": "{{ LARAVEL_ECHO_SERVER_ALLOW_ORIGIN }}",
 		"allowMethods": "{{ LARAVEL_ECHO_SERVER_ALLOW_METHODS }}",
 		"allowHeaders": "{{ LARAVEL_ECHO_SERVER_ALLOW_HEADERS }}"
