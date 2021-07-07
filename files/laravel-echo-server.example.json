@@ -9,7 +9,7 @@
 			"host": "{{ LARAVEL_ECHO_SERVER_REDIS_HOSTNAME }}",
 			"password": "{{ LARAVEL_ECHO_SERVER_REDIS_PASSWORD }}",
 			"keyPrefix": "{{ LARAVEL_ECHO_SERVER_REDIS_KEYPREFIX }}",
-			"db": "{{ LARAVEL_ECHO_SERVER_REDIS_OPTIONS_DB }}"
+			"db": "{{ LARAVEL_ECHO_SERVER_REDIS_DB }}"
 		},
 		"sqlite": {
 			"databasePath": "{{ LARAVEL_ECHO_SERVER_SQLITE_DATABASEPATH }}"
