@@ -2,7 +2,7 @@
 	"authHost": "http://localhost",
 	"authEndpoint": "/broadcasting/auth",
 	"clients": "{{ LARAVEL_ECHO_SERVER_CLIENTS }}",
-	"database": "{{ LARAVEL_ECHO_DATABASE }}",
+	"database": "{{ LARAVEL_ECHO_SERVER_DATABASE }}",
 	"databaseConfig": {
 		"redis": {
 			"port": "{{ LARAVEL_ECHO_SERVER_REDIS_PORT }}",
