@@ -3,6 +3,7 @@ MAINTAINER fatryst <fatryst@hotmail.com>
 
 COPY files/ /opt/laravel-echo-server/
 RUN \
+	apk add --no-cache make g++ python3 py3-pip && \
 	npm install -g laravel-echo-server --registry=http://registry.npm.taobao.org && \
 	cd /opt/laravel-echo-server && \
 	chmod +x entrypoint.sh
