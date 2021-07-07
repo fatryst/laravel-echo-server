@@ -13,7 +13,7 @@ sed -i -e "s%{{ LARAVEL_ECHO_SERVER_REDIS_HOSTNAME }}%$LARAVEL_ECHO_SERVER_REDIS
 sed -i -e "s%{{ LARAVEL_ECHO_SERVER_REDIS_PORT }}%$LARAVEL_ECHO_SERVER_REDIS_PORT%g" laravel-echo-server.json
 sed -i -e "s%{{ LARAVEL_ECHO_SERVER_REDIS_PASSWORD }}%$LARAVEL_ECHO_SERVER_REDIS_PASSWORD%g" laravel-echo-server.json
 sed -i -e "s%{{ LARAVEL_ECHO_SERVER_REDIS_KEYPREFIX }}%$LARAVEL_ECHO_SERVER_REDIS_KEYPREFIX%g" laravel-echo-server.json
-sed -i -e "s%{{ LARAVEL_ECHO_SERVER_REDIS_OPTIONS_DB }}%$LARAVEL_ECHO_SERVER_REDIS_OPTIONS_DB%g" laravel-echo-server.json
+sed -i -e "s%{{ LARAVEL_ECHO_SERVER_REDIS_DB }}%$LARAVEL_ECHO_SERVER_REDIS_DB%g" laravel-echo-server.json
 sed -i -e "s%{{ LARAVEL_ECHO_SERVER_SQLITE_DATABASEPATH }}%$LARAVEL_ECHO_SERVER_SQLITE_DATABASEPATH%g" laravel-echo-server.json
 sed -i -e "s%{{ LARAVEL_ECHO_SERVER_DEVMODE }}%$LARAVEL_ECHO_SERVER_DEVMODE%g" laravel-echo-server.json
 sed -i -e "s%{{ LARAVEL_ECHO_SERVER_HOST }}%$LARAVEL_ECHO_SERVER_HOST%g" laravel-echo-server.json
