@@ -1,0 +1,33 @@
+{
+	"authHost": "http://localhost",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": "{{ LARAVEL_ECHO_SERVER_CLIENTS }}",
+	"database": "{{ LARAVEL_ECHO_SERVER_DATABASE }}",
+	"databaseConfig": {
+		"redis": {
+			"port": "{{ LARAVEL_ECHO_SERVER_REDIS_PORT }}",
+			"host": "{{ LARAVEL_ECHO_SERVER_REDIS_HOSTNAME }}",
+			"password": "{{ LARAVEL_ECHO_SERVER_REDIS_PASSWORD }}",
+			"keyPrefix": "{{ LARAVEL_ECHO_SERVER_REDIS_KEYPREFIX }}",
+			"db": "{{ LARAVEL_ECHO_SERVER_REDIS_DB }}"
+		},
+		"sqlite": {
+			"databasePath": "{{ LARAVEL_ECHO_SERVER_SQLITE_DATABASEPATH }}"
+		}
+	},
+	"devMode": "{{ LARAVEL_ECHO_SERVER_DEVMODE }}",
+	"host": "{{ LARAVEL_ECHO_SERVER_HOST }}",
+	"port": "{{ LARAVEL_ECHO_SERVER_PORT }}",
+	"protocol": "{{ LARAVEL_ECHO_SERVER_PROTOCOL }}",
+	"socketio": {},
+	"sslCertPath": "{{ LARAVEL_ECHO_SERVER_SSL_CERT_PATH }}",
+	"sslKeyPath": "{{ LARAVEL_ECHO_SERVER_SSL_KEY_PATH }}",
+	"sslCertChainPath": "{{ LARAVEL_ECHO_SERVER_SSL_CHAIN_PATH }}",
+	"sslPassphrase": "{{ LARAVEL_ECHO_SERVER_SSL_PASSPHRASE }}",
+	"apiOriginAllow": {
+		"allowCors": "{{ LARAVEL_ECHO_SERVER_ALLOW_CORS }}",
+		"allowOrigin": "{{ LARAVEL_ECHO_SERVER_ALLOW_ORIGIN }}",
+		"allowMethods": "{{ LARAVEL_ECHO_SERVER_ALLOW_METHODS }}",
+		"allowHeaders": "{{ LARAVEL_ECHO_SERVER_ALLOW_HEADERS }}"
+	}
+}
